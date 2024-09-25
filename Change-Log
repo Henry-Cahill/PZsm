@@ -655,3 +655,406 @@ EN
   Increased the mod check time from 60 to 120 minutes.
   Added forced mod checking.
   Fixed a bug when using Soft Reset
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.7.9 Functionality
+By: Varlonec 
+Post: May 18, 2022
+
+UPDATE 1.9.7.9
+RU
+
+  Исправлен конфиг "Поведение зомби"
+  Добавлена функция удаления чанков.
+  Добавлены в конфиг АнтиЧиты.
+
+---------------------------------
+EN 
+
+  Fixed config "Zombie Lore"
+  Added the function of deleting chunks.
+  Added to the AntiCheat config
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.8 Functionality
+By: Varlonec 
+Post: May 24, 2022
+
+UPDATE 1.9.8
+
+RU
+Обновление до версии сервера 41.71
+Добавлен в настройки параметр BackupsOnVersionChange
+
+Добавлен просмотр чата.
+
+---------------------------------
+EN
+Upgrading to server version 41.71
+Added the BackupsOnVersionChange parameter to the settings
+
+Added chat view.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.8.1 Functionality
+By: Varlonec 
+Post: July 15, 2022
+
+UPDATE 1.9.8.1
+
+RU
+Обновлён протокол TLSv1.0 -> TLSv1_2
+
+---------------------------------
+EN
+Updated protocol TLSv1.0 -> TLSv1_2
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.8.3 Functionality
+By: Varlonec 
+Post: August 9, 2022
+
+UPDATE 1.9.8.3
+RU
+
+Обновлён до версии сервера 41,73
+Добавлена установка НЕстабильной ветки PZ сервера.
+Добавлен параметр:
+    MapRemotePlayerVisibility
+    AntiCheatProtectionType21
+    AntiCheatProtectionType22
+    AntiCheatProtectionType23
+    AntiCheatProtectionType24
+    AntiCheatProtectionType23ThresholdMultiplier
+---------------------------------
+EN
+Update to server version 41.73
+Added installation UNstable branch of the PZ server.
+Added parameter:
+    MapRemotePlayerVisibility
+    AntiCheatProtectionType21
+    AntiCheatProtectionType22
+    AntiCheatProtectionType23
+    AntiCheatProtectionType24
+    AntiCheatProtectionType23ThresholdMultiplier
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.8.4 Functionality
+By: Varlonec 
+Post: October 5, 2022
+
+UPDATE 1.9.8.4
+RU
+Обновление до версии сервера 41.77.3
+Добавлен параметр:
+    UDPPort
+    AntiCheatProtectionType22ThresholdMultiplier
+    AntiCheatProtectionType24ThresholdMultiplier    
+Удалён параметр:
+    AntiCheatProtectionType23ThresholdMultiplier
+    
+---------------------------------
+EN
+Upgrading to server version 41.77.3
+Added parameter:
+    UDPPort
+    AntiCheatProtectionType22ThresholdMultiplier
+    AntiCheatProtectionType24ThresholdMultiplier    
+Deleted parameter:
+    AntiCheatProtectionType23ThresholdMultiplier
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 1.9.8.5 Functionality
+By: Varlonec 
+Post: November 16, 2022
+
+UPDATE 1.9.8.5
+RU
+Обновление до версии сервера 41.78.7
+Изменены параметры по новому файлу конфигурации в категории "Настройка мира"    
+Добавлен параметр:
+    KnockedDownAllowed
+    SneakModeHideFromOtherPlayers
+    XpMultiplierAffectsPassive
+    Количество предметов в мире (Добавлены дополнительные параметры)
+    InitialGas (Добавлены дополнительные параметры)
+    EnableTaintedWaterText
+    EnablePoisoning
+    MaggotSpawn
+    LightBulbLifespan
+    DisableFakeDead
+Удалён параметр:
+    AntiCheatProtectionType23ThresholdMultiplier
+Заблокирован параметр:
+    Decomp
+    
+---------------------------------
+EN
+Upgrading to server version 41.78.7
+The parameters for the new configuration file in the "Loot Rarity" category have been changed    
+Added parameter:
+    KnockedDownAllowed
+    SneakModeHideFromOtherPlayers
+    XpMultiplierAffectsPassive
+    Loot Rarity (Added additional parameters)
+    EnableTaintedWaterText
+    InitialGas (Added additional parameters)
+    EnablePoisoning
+    MaggotSpawn
+    LightBulbLifespan
+    DisableFakeDead
+Deleted parameter:
+    AntiCheatProtectionType23ThresholdMultiplier
+Blocked parameter:    
+    Decomp
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.0.0 Functionality
+By: Varlonec 
+Post: March 18, 2023
+
+UPDATE 2.0.0
+RU
+Обновление до версии сервера 41.78.16
+Правка "Интервал рестартов". Теперь рестарт будет в установленное время. Если вы выставляете 12:00, то рестарт и будет происходить в 12:00, а не в 12:10, как раньше.
+Добавлена кнопка, для быстрого перехода к папке с файлами конфигурации 
+
+!!! ВАЖНО !!!
+Наконец дошли руки, внедрить отслеживанию только своего процесса.
+Теперь PZsm отслеживает только свой сервер, который был запущен через программу, а не любой процесс java который запущен.
+Отслеживание сервера, происходить по ID процессу. Поэтому можете запускать что угодно параллельно... Майнкрафт например :)
+!!!ОБЯЗАТЕЛЬНО!!! Выключить сервер, перед обновлением!!!
+    
+---------------------------------
+EN
+Upgrading to server version 41.78.16
+
+Correction "Restart interval". Now the restart will be at the set time. If you set 12:00, then the restart will take place at 12:00, and not at 12:10, as before.
+Added a button to quickly navigate to the folder with configuration files
+
+!!! IMPORTANT !!!
+We have reached the hands to implement tracking only of our own process.
+Now PZsm only tracks its server that was started through the program, and not any java process that is running.
+Server tracking, occur by process ID. Therefore, you can run anything in parallel... Minecraft for example :)
+!!! ABSOLUTELY !!! Shut down the server before updating!!!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.0.1 Functionality
+By: Varlonec 
+Post: March 23, 2023
+
+UPDATE 2.0.1
+RU
+
+Фикс ошибки Авторестарта
+Фикс кнопки Донат
+---------------------------------
+EN
+Fix bug Auto-restart
+Fix button Donate
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.1.0 Functionality
+By: Varlonec 
+Post: April 5, 2023
+
+UPDATE 2.1.0
+RU
+
+Добавлен вывод ID процесса сервера
+Добавлен счётчик модов
+Фикс кнопки WipeServer
+Введено ограничение на опцию АвтоОбновление модов (максимум 20 шт.) В связи с проблемами проверки. Рекомендуется выставить интервал рестартов сервера, моды обновятся сами.
+
+
+Доработка окна Модов:
+   Добавлен Фильтр поиска
+   Добавлено удаление нескольких модов одновременно (выделение через Ctrl)
+   Добавлено удаление всех модов
+   Добавлена возможность сразу установить 150 модов
+---------------------------------
+EN
+Added output of the server process ID
+Added a mod counter
+Fixed WipeServer buttons
+A restriction has been introduced on the Auto-update mods option (maximum 20 pcs.) Due to verification problems. It is recommended to set the server restart interval, the mods will update themselves.
+
+
+Modification of the Mods window:
+    Added a Search filter
+    Added removal of several mods at the same time (selection via Ctrl)
+    Added removal of all mods
+    Added the ability to install 150 mods at once
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.2.1 Functionality
+By: Varlonec 
+Post: April 24, 2023
+
+UPDATE 2.2.1
+RU
+
+- Добавлена недостающая настройка Hearing(Random) в опции Правильные зомби.
+- Добавлена в программу поддержка плагина PZServerDiscordBot.
+- Изменена надпись "Deactive" на "Inactive" (во избежания проблем выключите и включите опции).
+- Добавлена возможность выбора 1-5 минут для рестарта.
+- Фикс PID, когда сервер не установлен.
+- Увеличено выделение памяти до 40 Гигабайт.
+- Полностью переписан код Автообновления модов. Ограничение на количество модов снято. (Пожалуйста, обратите внимание! Первая проверка может занять больше времени)
+- Фикс бага Авто перезагрузка, во время проверки модов.
+- Фикс плавающей ошибки АвтоОбновления модов.
+- Увеличено время показа всплывающих подсказок.
+- Фикс кнопки "Правильные зомби" теперь она работает как должна.
+---------------------------------
+EN
+
+- Added missing Hearing(Random) setting in the Correct Zombies option.
+- Added support for the PZ Server Discord Bot plugin to the program.
+- Changed the label "Deactive" to "Inactive" (to avoid problems, turn off and turn on the options).
+- Added the ability to select 1-5 minutes to restart.
+- Fix the PID when the server is not installed.
+- Increased memory allocation to 40 Gigabytes
+- The code for Auto-updating mods has been completely rewritten. The limit on the number of mods has been removed. (Please pay attention! The first check may take longer)
+- Bug fix Auto reboot, while checking mods.
+- Fixed floating error of auto-updating mods.
+- The time for displaying tooltips has been increased.
+- Fix the "Proper Zombies" button now it works as it should.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.2.3 Functionality
+By: Varlonec 
+Post: May 19, 2023
+
+UPDATE 2.2.3
+RU
+
+- Добавлена возможность изменить имя файла конфига 'servertest'
+- Много мелких доработок программы
+- Исправление Автозапуска программы и сервера при рестарте Windows
+- Добавлен Испанский язык (Спасибо OSBSoto)
+---------------------------------
+EN
+
+- Added the ability to change the name of the config file 'servertest'
+- A lot of minor improvements to the program
+- Fixing the Autorun of the program and the server when Windows restarts
+- Added Spanish (Thanks OSBSoto)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.2.4 Functionality
+By: Varlonec 
+Post: May 26, 2023
+
+UPDATE 2.2.4
+RU
+
+- Мелкие доработки.
+- Исправления в переводе.
+- Добавлена возможность бекапа файлов настроек сервера.
+---------------------------------
+EN
+
+- Minor improvements.
+- Corrections in translation.
+- Added the ability to backup server settings files.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.2.5 Functionality
+By: Varlonec 
+Post: June 16, 2023
+
+UPDATE 2.2.5
+RU
+
+- Исправление ошибка установки сервера, если путь к программе с пробелами.
+- Исправлена ошибка Автообновления модов, если включена опция AutoStartCrash
+---------------------------------
+EN
+
+- Fix a server installation error if the program path is with spaces.
+- Fixed the error of Auto-updating mods if the AutoStartCrash option is enabled
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.2.6 Functionality
+By: Varlonec 
+Post: October 13, 2023
+
+UPDATE 2.2.6
+RU
+- Добавлена расцветка консоли
+- Сообщение в Дискорд 'Отмена рестарта'
+- Обновилась ссылка PZServerDiscordBot до версии 1.9.1
+- Добавлены интервалы рестартов 8,10,12 часов
+---------------------------------
+
+EN
+- Added console coloring
+- Message to Discord 'Restart cancellation'
+- Updated the PZServerDiscordBot link to version 1.9.1
+- Added restart intervals of 8,10,12 hours
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.3.0 Functionality
+By: Varlonec 
+Post: December 16, 2023
+
+UPDATE 2.3.0 
+RU
+
+Исправлена ошибка запуска сервера (раскраска консоли).
+Исправлена ошибка запуска сервера (путь с пробелами)
+Исправлена ошибка автозапуска сервера при запуске программы при включённой опции Краш.
+Обновилась ссылка PZServerDiscordBot до версии 1.11.1
+Добавлена смена стиля у программы.
+Изменён внешний вид, для более комфортного управления.
+Изменена ссылка доната
+--------------------------------- 
+EN
+
+Fixed a server startup error (console coloring).
+Fixed server startup error (path with spaces)
+Fixed the server autorun error when starting the program with the Crash option enabled.
+The PZServerDiscordBot link has been updated to version 1.11.1
+Added a change in the style of the program.
+Changed the appearance for more comfortable control.
+The donation link has been changed
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version: 2.4.0 Functionality
+By: Varlonec 
+Post: January 8, 2024
+
+UPDATE 2.4.0 
+RU
+
+Добавлено, сворачивание программы в трей.
+Добавлены оповещения в трее. (Обновления, Рестарты)
+Обновление иконок.
+Мелкие исправления.
+Переработан модуль проверки обновлений. Теперь единая версия для всех.
+Обновлён модуль Установки и Обновления модов. Теперь моды устанавливаются сразу на сервер, а не дублируются. Экономя место на диске. (После обновления, можете удалить папку "Указанный вами путь... \SteamCMD\steamapps\workshop\content\108600\")
+--------------------------------- 
+EN
+
+Added, minimizing the program to the tray.
+Added tray alerts. (Updates, Restarts)
+Updating icons.
+Small fixes.
+The update verification module has been redesigned. Now there is a single version for everyone.
+The module for Installing and Updating mods has been updated. Now mods are installed directly on the server, and not duplicated. Saving disk space. (After the update, you can delete the folder "The path you specified... \SteamCMD\steamapps\workshop\content\108600\")

@@ -68,3 +68,6 @@ Copied from the Indie Stone Website.
                              IMPORTANT
 
 The server name must be "servertest" otherwise the program will not work. (name of config)
+
+![2 jpg 65e5d59e23cfbeedc048f759aac7a899](https://github.com/user-attachments/assets/fc17f910-5cc8-43e5-a19d-826f8cdacc33)
+

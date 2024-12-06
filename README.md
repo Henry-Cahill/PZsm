@@ -1,60 +1,37 @@
-Overview of the current functionality and development of the Project Zomboid Server Manager 
-Copied from the Indie Stone Website.
+## Overview of Functionality / Обзор функциональности
 
-                          RU                                                                      ENG
+### Supported Languages / Поддерживаемые языки
+- Russian (RU) / Русский (RU)
+- English (ENG) / Английский (ENG)
+- Spanish (ES) / Испанский (ES)
 
-Реализовано                                                                      |          Implemented :
+### Implemented Features / Реализованные функции
 
-1) Установка, Переустановка Steam                              |          Install, Reinstall Steam
-
-2) Установка, Обновление сервера PZ                         |          Installation, Update PZ Server
-
-3) Запуск, Остановка, Перезагрузка сервера               |          Start, Stop, Restart Server
-
-4) Перезапуск Сервера по таймеру                               |          Restart Server Timer
-
-5) Выставление используемой памяти сервера         |          Exposing server memory used
-
-6) Статус сервера                                                              |          Server status
-
-7) Поддерживаемые языки RU\ENG                               |           Supported Languages RU\ENG
-
-8 ) Подключение модов                                                   |           Add mods
-
-9) Обновление программы                                             |           Update Program
-
-10) Отправка сообщения на сервер                             |           Sending a message to the server
-
-11) Отправка команд на сервер                                    |           Sending a command to the server
-
-12) Все Настройки сервера                                            |           All Server Setting
-
-13) Лёгкий Вайп                                                                |           Soft Reset
-
-14) Белый лист предметов                                              |           White list items
-
-15) Вывод онлайна сервера                                           |           Online Server
-
-16) Автообновление модов                                            |           Auto update mods        
-
-17) Статус сервера в Discord                                          |           Discord Server Status  
-
-18) Авторестарт при краше                                            |           Crash auto-start  
-
-                                   
-
- 
+| Russian (RU)                           | English (ENG)                          |
+|----------------------------------------|----------------------------------------|
+| 1. Установка, Переустановка Steam      | 1. Install, Reinstall Steam            |
+| 2. Установка, Обновление сервера PZ    | 2. Installation, Update PZ Server      |
+| 3. Запуск, Остановка, Перезагрузка сервера | 3. Start, Stop, Restart Server        |
+| 4. Перезапуск Сервера по таймеру       | 4. Restart Server Timer               |
+| 5. Выставление используемой памяти сервера | 5. Exposing server memory used        |
+| 6. Статус сервера                      | 6. Server status                      |
+| 7. Поддерживаемые языки RU\ENG\ES         | 7. Supported Languages RU\ENG\ES         |
+| 8. Подключение модов                   | 8. Add mods                           |
+| 9. Обновление программы                | 9. Update Program                     |
+| 10. Отправка сообщения на сервер       | 10. Sending a message to the server   |
+| 11. Отправка команд на сервер          | 11. Sending a command to the server   |
+| 12. Все Настройки сервера              | 12. All Server Settings               |
+| 13. Лёгкий Вайп                        | 13. Soft Reset                        |
+| 14. Белый лист предметов               | 14. White list items                  |
+| 15. Вывод онлайна сервера              | 15. Online Server                     |
+| 16. Автообновление модов               | 16. Auto update mods                  |
+| 17. Статус сервера в Discord           | 17. Discord Server Status             |
+| 18. Авторестарт при краше              | 18. Crash auto-start                  |
 
 Установка   /    Install
-
- 
-
 1) Распаковать Архив  /  Unpack Archive
-
 2) Остановить сервер если он запущен / Stop the server if it is running
-
 3) Установить используемую память сервера -Xmx2048m (если менялось) / Set the used memory server -Xmx2048m (if changed)
-
 4) Запустить программу и выставить папки Steam и сервер PZ / Run the program and set the folder Steam and PZ server
 
  
